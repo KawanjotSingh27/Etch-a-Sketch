@@ -1,0 +1,41 @@
+.container{
+    height:500px;
+    width:500px;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    border: 5px solid black;
+}
+
+.container_head{
+    display:flex;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:110px;
+    font-size:25px;
+}
+
+#number_button{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    align-self: center;
+    margin-left: 70px;
+}
